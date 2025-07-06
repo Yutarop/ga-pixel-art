@@ -1,0 +1,9 @@
+[package]
+name = "ga_image"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gif = "0.13.3"
+image = "0.24"
+rand = "0.8"
