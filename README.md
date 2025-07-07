@@ -10,7 +10,7 @@ The program generates an animated GIF showing the evolution process from random 
 ## Details
 This project uses a genetic algorithm to evolve RGB pixel values for each position in a 100x100 image grid. 
 Each pixel is represented by a chromosome containing binary genes for red, green, and blue color channels. 
-Through selection, crossover, and mutation operations, the algorithm iteratively improves the image quality to match a target image.
+Through selection, crossover, and mutation operations, the algorithm iteratively improves the image quality to match a target image. 
 
 #### Genetic Algorithm Parameters
 ```bash
@@ -24,6 +24,7 @@ const RGB_CHANNELS: usize = 3;         // Red, Green, Blue channels
 const TOURNAMENT_SIZE: usize = 3;      // Tournament selection size
 const ELITE_SIZE: usize = 2;           // Number of elite individuals preserved
 ```
+For more details, see [here](https://github.com/Yutarop/ga-pixel-art/wiki).
 
 ## Usage
 #### Prerequisites
