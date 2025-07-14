@@ -1,7 +1,6 @@
-# Image Evolution GIF Generator (using Genetic Algorithm)
+# Image Evolution GIF Generator using GA
 
-A genetic algorithm implementation that evolves a low-resolution image by attempting to approximate a target image through evolutionary computation.  
-The program generates an animated GIF that visualizes the entire evolution process from random noise to a recognizable approximation using pixel-level mutations and selection.
+A genetic algorithm implementation that evolves a low-resolution image by attempting to approximate a target image through evolutionary computation. The program generates an animated GIF that visualizes the entire evolution process from random noise to a recognizable approximation using pixel-level mutations and selection.
 
 ## Demo
 | **Original Image** | **Generated GIF** |
