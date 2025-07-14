@@ -1,6 +1,7 @@
-# GA Pixel Art Generator
-A genetic algorithm implementation that evolves pixel art by attempting to recreate a target image through evolutionary computation. 
-The program generates an animated GIF showing the evolution process from random noise to the final approximation.
+# Image Evolution GIF Generator (using Genetic Algorithm)
+
+A genetic algorithm implementation that evolves a low-resolution image by attempting to approximate a target image through evolutionary computation.  
+The program generates an animated GIF that visualizes the entire evolution process from random noise to a recognizable approximation using pixel-level mutations and selection.
 
 ## Demo
 | **Original Image** | **Generated GIF** |
